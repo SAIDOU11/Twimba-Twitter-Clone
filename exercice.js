@@ -8,5 +8,5 @@ const userObj = usersArray[0];
 
 userObj.username = "Bruce";
 
-console.log(usersArray);
-console.log(userObj);
+// console.log(usersArray);
+// console.log(userObj);
