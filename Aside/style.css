@@ -84,3 +84,11 @@ i:hover {
   padding: 5px;
   margin-left: 10px;
 }
+
+.liked {
+  color: #f80000;
+}
+
+.shared {
+  color: limegreen;
+}
