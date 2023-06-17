@@ -43,7 +43,6 @@ function handleRetweetClick(tweetID) {
 }
 
 function handleReplyClick(replyId) {
-  console.log(replyId);
   const divReply = document.getElementById(`replies-${replyId}`);
   divReply.classList.toggle("hidden");
 }
@@ -119,6 +118,7 @@ function getFeedHtml() {
                 <i data-retweet=${tweet.uuid} class="fa-solid fa-retweet ${retweetIconClass} "></i>
                 ${tweet.retweets}
                 </span>
+               
             </div>   
         </div>            
     </div>
